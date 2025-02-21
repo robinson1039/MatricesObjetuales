@@ -26,6 +26,26 @@ public class Main {
             Punto5 p5 = new Punto5();
             p5.p5(d);
             
+        }else if(punto == 6){
+            Punto6 p6 = new Punto6();
+            p6.p6(d);
+            
+        }else if(punto == 7){
+            Punto7 p7 = new Punto7();
+            p7.p7(d);
+            
+        }else if(punto == 8){
+            Punto8 p8 = new Punto8();
+            p8.p8(d);
+            
+        }else if(punto == 9){
+            Punto9 p9 = new Punto9();
+            p9.p9();
+            
+        }else if(punto == 10){
+            Punto10 p10 = new Punto10();
+            p10.p10(d);
+            
         }else{
             System.out.println("Opcion no valida");
         }
